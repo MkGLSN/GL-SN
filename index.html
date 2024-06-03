@@ -145,40 +145,39 @@
         </div>
        
     <!-- book a table Section  -->
-    <div class="container-fluid has-bg-overlay text-center text-light has-height-lg middle-items" id="book-table">
+   <div class="container-fluid has-bg-overlay text-center text-light has-height-lg middle-items" id="book-table">
         <div class="">
             <h2 class="section-title mb-5">Reservaciones</h2>
-            <form action="https://formsubmit.co/marketing.gl.sn@email.com" method="post">
+            <form action="https://formsubmit.co/marketing.gl.sn@gmail.com" method="post">
                 <div class="row mb-5">
-                <div class="col-sm-6 col-md-3 col-xs-12 my-2">
-                    <label class="label-reservacion" for="e-mail-usuario">Email</label>
-                    <input type="email" id="booktable" name="e-mail-usuario" class="form-control form-control-lg custom-form-control" placeholder="marketing.gl.sn@email.com">
+                    <div class="col-sm-6 col-md-3 col-xs-12 my-2">
+                        <label class="label-reservacion" for="e-mail-usuario">Email</label>
+                        <input type="email" id="booktable" name="e-mail-usuario" class="form-control form-control-lg custom-form-control" placeholder="tu@email.com" required>
+                    </div>
+                    <div class="col-sm-6 col-md-3 col-xs-12 my-2">
+                        <label class="label-reservacion" for="interesados">Personas interesadas</label>
+                        <input type="number" id="booktable" name="interesados" class="form-control form-control-lg custom-form-control" placeholder="Participantes-Interesados" max="20" min="0" value="1" required>
+                    </div>
+                    <div class="col-sm-6 col-md-3 col-xs-12 my-2">
+                        <label class="label-reservacion" for="horario">Hora de la reunión</label>
+                        <input type="time" id="booktable" name="horario" class="form-control form-control-lg custom-form-control" placeholder="hora" required>
+                    </div>
+                    <div class="col-sm-6 col-md-3 col-xs-12 my-2">
+                        <label class="label-reservacion" for="fecha">Día de la reunión</label>
+                        <input type="date" id="booktable" name="fecha" class="form-control form-control-lg custom-form-control" placeholder="12/12/12" required>
+                    </div>
+                    <div class="btn-submit">
+                        <input type="submit" class="btn btn-lg btn-primary" id="rounded-btn" value="Enviar Reservación">
+                    </div>
+                    <input type="hidden" name="_next" value="index.html">
+                    <input type="hidden" name="_captcha" value="false">
+                    <input type="hidden" name="_subject" value="Nueva Reservación">
+                    <input type="hidden" name="_template" value="box">
+                    <input type="hidden" name="_autoresponse" value="Gracias por hacer una reservación con nosotros, por favor responder a este e-mail con su nombre para terminar el proceso, gracias por su preferencia.">
                 </div>
-                <div class="col-sm-6 col-md-3 col-xs-12 my-2">
-                    <label class="label-reservacion" for="interesados">Personas interesadas</label>
-                    <input type="number" id="booktable" name="interesados" class="form-control form-control-lg custom-form-control" placeholder="Participantes-Interesados" max="20" min="0" value="1">
-                </div>
-                <div class="col-sm-6 col-md-3 col-xs-12 my-2">
-                    <label class="label-reservacion" for="horario">Hora de la reunion</label>
-                    <input type="time" id="booktable" name="horario" class="form-control form-control-lg custom-form-control" placeholder="hora">
-                </div>
-                <div class="col-sm-6 col-md-3 col-xs-12 my-2">
-                    <label class="label-reservacion" for="fecha">Dia de la reunion</label>
-                    <input type="date" id="booktable" name="fecha" class="form-control form-control-lg custom-form-control" placeholder="12/12/12">
-                </div>
-                <div class="btn-submit">
-                    <input type="submit" class="btn btn-lg btn-primary" id="rounded-btn" value="Enviar Resevacion">
-                </div>
-                <input type="hidden" name="_next" value="index.html">
-                <input type="hidden" name="_captcha" value="false">
-                <input type="hidden" name="_subject" value="Nueva Reservacion">
-                <input type="hidden" name="_template" value="box">
-                <input type="hidden" name="_autoresponse" value="Gracias por hacer una reservacion con nosotros, por favor responder a este e-mail con su nombre para terminar el proceso, gracias por su preferencia.">
             </form>
-            </div>
         </div>
     </div>
-
     <!-- BLOG Section  -->
     <div id="blog" class="container-fluid bg-dark text-light py-5 text-center wow fadeIn">
         <h2 class="section-title py-5">Paquetes</h2>
